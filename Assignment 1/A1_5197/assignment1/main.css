@@ -1,0 +1,158 @@
+a:link{
+    color:green;
+    text-decoration: none;
+}
+a:visited{
+    color:red;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+a:active{
+    color:yellow;
+    text-decoration: underline;
+}
+.fa:hover {
+     opacity: 0.7;
+}
+.fa-google{
+    background: #dd4b39;
+    color: white;
+}
+
+body { font-family: Arial,sans-serif;
+     background-color: #125688;
+     background-image: url('cool-website-background-01.jpg') ;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     color : white;
+}
+.header {
+    background-color: #4b5560;
+    padding: 20px;
+    text-align: center;
+    border-radius: 60% / 40%;
+}
+.nav {
+    padding: 20px;
+    text-align: center;
+}
+.article{
+    padding: 20px;
+    text-align: left;
+}
+.aside{
+    text-align: right;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.highlight{
+   background-color: rgb(12, 12, 1) !important; 
+}
+.lang{
+    background-color: orange!important; 
+}
+h1{
+    color:#dd4b39;
+    font-family:"Anton","consolas",sans-serif,;
+}
+h1#Title{
+    font-family: "Oswald",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #4b5560;
+}
+h2{
+    font-family: "Anton";
+    color:rgb(134, 72, 72);
+}
+h3{
+    font-family: "Oswald",'Franklin Gothic Medium', 'Arial';
+    color: rgb(50, 37, 37);
+}
+p{
+    color:rgb(176, 162, 188);
+}
+p#Parag{
+    font-family:"Sixtyfour Convergence",sans-serif;
+}
+figure{
+    margin:0;
+}
+.cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 30px;
+}
+
+.progress-bar {
+    width: 70%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 30px; /* Aligns text vertically */
+    font-weight: bold;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.img-rounded{
+    border-radius:100px;
+}
+.fa{
+    padding:20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration:  none;
+    margin: 5px 4px;
+    border-radius: 40%;
+}
+.fa-instagram{
+    background-color: #125688;
+    color: #ffffff;
+}
+.section{
+    color:#125688 ;
+    font-family: "Helvetica Neue",
+}
+.td{
+    font-family: "Oswald", "Helvetica Neue",;
+    color:#125688;
+}
+footer {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    text-align: center;
+    color: #333; /* Text color */
+    padding:20px;
+
+}
+table{
+    background-color: black ;
+    width: 500px;
+}
+tr{
+    background-color: gray;
+    align-items: center; 
+}
+th{
+    width: 100;
+}
+tr{
+    background-color: rgb(138, 134, 134) ;
+    align-items: center;
+}

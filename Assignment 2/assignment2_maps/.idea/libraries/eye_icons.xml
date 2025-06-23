@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="eye-icons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/eye-icons.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="extralibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/extralibs/jaxrs-ri-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/yasson-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/hk2-locator-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/aopalliance-repackaged-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jakarta.json-api-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jersey-media-jaxb-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jersey-server-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jakarta.validation-api-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jakarta.json.bind-api-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jakarta.ws.rs-api-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/javassist-3.25.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jakarta.json-2.0.0-module.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jersey-media-sse-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jersey-common-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jersey-container-servlet-core-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/osgi-resource-locator-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jakarta.inject-api-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jersey-client-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jakarta.xml.bind-api-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jersey-hk2-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jersey-media-json-binding-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jakarta.activation-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/hk2-utils-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jersey-container-servlet-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/jakarta.annotation-api-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extralibs/hk2-api-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

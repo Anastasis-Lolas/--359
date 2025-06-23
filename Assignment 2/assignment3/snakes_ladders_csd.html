@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="myStyle.css">
+<script src="game.js"></script>
+<script src="initBoard.js"></script>
+<script src = "handleGame.js"></script>
+
+</head>
+<body onload=initBoard()>
+
+<table  id="mainTable">
+</table>
+<br>
+<div>
+    <input type="checkbox" name =" "id="ComputerMode">VsComputer
+</div>
+<button onclick="play()">Ρίξε το Ζάρι</button>
+<br>
+
+<img id = "dice" src ="ImagesDice/one.png" width="40" height="40">
+<button id = "start" onclick="NewGame()">Start</button>
+<br>
+<br>
+<br>
+<div class="IBOX" >
+    <p id ="InfoBox">InfoBox</p>
+</div>
+
+
+
+<div id="allInModal" class="modal">
+    <div class="modal-content">
+        <p>You landed on an ALL IN square! Do you want to proceed?</p>
+        <button id="yesButton">Yes</button>
+        <button id="noButton">No</button>
+    </div>
+</div>
+
+
+
+<!-- Add these elements to your HTML file -->
+<audio id="diceSound" src="dice-142528.mp3"></audio>
+<audio id="StartSound" src="game-start-6104.mp3"></audio>
+<audio id="winSound" src="goodresult-82807.mp3"></audio>
+<audio id="SnakeLadderSound" src="game-bonus-144751.mp3"></audio>
+<audio id="loseSound" src="game-bonus-144751.mp3"></audio>
+
+</body>
+
+
+</html>
+
+

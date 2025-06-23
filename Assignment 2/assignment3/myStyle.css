@@ -1,0 +1,87 @@
+.ex1
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .ex2
+    {
+      position: absolute;
+      top: 60px;
+      left: 80px;
+    }
+
+table,td {padding: 0px; margin: 0px; cellspacing: 0; cellpadding:0; 
+ border-collapse:collapse; border-spacing: 0px;  border:none; 
+}
+img { display:block;   }
+
+.IBOX{
+  background-color: blue;
+  position: relative;
+  padding: 40px;
+  height: 300px;
+  width: 300px;
+  transform: translateX(210%) translateY(-140%);
+  text-align: center;
+  align-items: center;
+  border: 20px solid #9B51E0;
+  border-radius: 40px;
+  margin:10px 5px 0px 0px;
+
+}
+
+.IBOX {
+  background-color: blue;
+  position: relative;
+  padding: 40px;
+  height: 300px;
+  width: 300px;
+  transform: translateX(210%) translateY(-140%);
+  text-align: center;
+  align-items: center;
+  border: 10px solid black;
+  border-radius: 40px;
+  margin: 10px 5px 0px 0px;
+  display: flex; /* Add Flexbox properties */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+/* vale nigga white color */
+#InfoBox {
+  text-align: center;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+  margin: 0; 
+}
+
+#start{
+  transform: translateX(230%) translateY(-392%);
+}
+
+#dice{
+  margin : 10px;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+}
+
